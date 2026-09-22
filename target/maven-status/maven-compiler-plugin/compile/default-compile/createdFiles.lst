@@ -1,0 +1,11 @@
+cl\educaparatodos\controller\UsuarioController.class
+cl\educaparatodos\model\Usuario.class
+cl\educaparatodos\util\JPAUtil.class
+cl\educaparatodos\dao\UsuarioDAO.class
+cl\educaparatodos\PruebaConexion.class
+cl\educaparatodos\controller\LeccionController.class
+cl\educaparatodos\dao\LeccionDAO.class
+cl\educaparatodos\model\Leccion.class
+cl\educaparatodos\dao\CursoDAO.class
+cl\educaparatodos\model\Curso.class
+cl\educaparatodos\controller\CursoController.class

@@ -1,0 +1,192 @@
+/* =========================
+   ESTILOS GENERALES
+   ========================= */
+
+body {
+  background-color: #f5f5f5;
+  color: #212121;
+  font-family: Arial, sans-serif;
+}
+
+/* =========================
+   BARRA DE NAVEGACIÓN
+   ========================= */
+
+.navbar {
+  background-color: #171717 !important;
+  border-bottom: 3px solid #198754;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #8e68d4 !important;
+}
+
+/* =========================
+   TÍTULOS
+   ========================= */
+
+h1,
+h2 {
+  color: #146c43;
+  font-weight: 600;
+}
+
+/* =========================
+   TARJETAS
+   ========================= */
+
+.card {
+  background-color: white;
+  border: none;
+  border-left: 4px solid #198754;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   BOTONES
+   ========================= */
+
+.btn {
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+}
+
+.btn-primary:hover {
+  background-color: #146c43 !important;
+  border-color: #146c43 !important;
+}
+
+/* Botón editar */
+.btn-warning {
+  background-color: #6f42c1 !important;
+  border-color: #6f42c1 !important;
+  color: white !important;
+}
+
+.btn-warning:hover {
+  background-color: #59359a !important;
+  border-color: #59359a !important;
+  color: white !important;
+}
+
+/* Botones secundarios */
+.btn-secondary {
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+}
+
+/* =========================
+   TABLAS
+   ========================= */
+
+.table {
+  background-color: white;
+}
+
+.table thead th {
+  background-color: #171717 !important;
+  color: white !important;
+  border-bottom: 3px solid #198754;
+}
+
+/* =========================
+   FORMULARIOS
+   ========================= */
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.2);
+}
+
+/* =========================
+   ACORDEÓN DE LECCIONES
+   ========================= */
+
+.accordion-button:not(.collapsed) {
+  background-color: #e8f5ee !important;
+  color: #146c43 !important;
+}
+
+.accordion-button:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.2);
+}
+
+/* =========================
+   ENLACES
+   ========================= */
+
+a {
+  color: #198754;
+}
+
+a:hover {
+  color: #6f42c1;
+}
+/* =========================
+   COLORES BOOTSTRAP PERSONALIZADOS
+   ========================= */
+/* =========================
+   HERO / PORTADA PRINCIPAL
+   ========================= */
+
+.bg-primary {
+  background: linear-gradient(
+    135deg,
+    #123524 0%,
+    #1b5e3a 55%,
+    #234b38 100%
+  ) !important;
+
+  border-bottom: 4px solid #6f42c1;
+}
+
+/* Título principal */
+.bg-primary h1 {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+/* Texto principal */
+.bg-primary p {
+  color: #e9ecef !important;
+}
+
+/* Botón del hero */
+.bg-primary .btn-light {
+  background-color: #6f42c1 !important;
+  border: 2px solid #8e68d4 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.bg-primary .btn-light:hover {
+  background-color: #59359a !important;
+  border-color: #9b7ad8 !important;
+  color: #ffffff !important;
+}
